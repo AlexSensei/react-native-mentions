@@ -116,9 +116,6 @@ export default class MentionsTextInput extends Component {
           style={[
             { ...this.props.suggestionsPanelStyle },
             { height: this.state.suggestionRowHeight },
-            {
-              backgroundColor: "#1c1c1d"
-            },
             this.props.flatListStyles
           ]}
         >
